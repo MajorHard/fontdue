@@ -22,7 +22,7 @@ freetype_benchmark = ["freetype-rs"]
 
 [dependencies]
 ttf-parser = {version = "0.8", default-features = false}
-hashbrown = "0.8"
+hashbrown = "0.9.1"
 
 # This is a dev-dependency, but those cannot be optional, so it's included here and not built by
 # default.
